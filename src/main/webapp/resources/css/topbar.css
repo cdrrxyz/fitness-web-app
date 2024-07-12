@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+* {
+    margin: 0;
+}
+.top-bar {
+    background-color: #814C4C;
+    color: #fff;
+    padding: 45px;
+    text-align: right;
+}
+.top-bar a{
+    color: #F5F5F5;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 8px 40px;
+}

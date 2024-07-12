@@ -1,0 +1,170 @@
+.profile-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-page .profile-options {
+    display: flex;
+    flex-direction: column;
+    background: rgba(134, 99, 99, 0.3);
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.profile-options .options-clicked{
+    position: relative;
+    background: rgba(157, 113, 113, 0.6);
+    top: 10%;
+    border-radius: 20px;
+}
+
+.profile-options .options-clicked button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.profile-options .options-clicked:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.profile-options .options{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+}
+.profile-options .options button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-options .options:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.profile-page .profile-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    background: white;
+    gap: 5%;
+}
+.profile-data .data-first-name {
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+}
+.data-first-name p.text-first-name-1{
+    position: relative;
+    right: 105px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-first-name p.text-first-name-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background: gainsboro;
+}
+
+.profile-data .data-last-name {
+    position: relative;
+    padding-top: 5%;
+    width: 45%;
+}
+
+.data-last-name p.text-last-name-1{
+    position: relative;
+    right: 90px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-last-name p.text-last-name-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background: gainsboro;
+}
+
+.profile-data .data-email {
+    position: relative;
+    width: 50%;
+}
+
+.data-email p.text-email-1{
+    position: relative;
+    right: 85px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-email p.text-email-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background: gainsboro;
+}
+
+.profile-data .data-dob {
+    position: relative;
+    width: 45%;
+}
+
+.data-dob p.text-dob-1{
+    position: relative;
+    right: 75px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-dob p.text-dob-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background: gainsboro;
+}
+
+.profile-data .data-edit-button {
+    position: relative;
+    padding-top: 5%;
+    padding-left: 80%;
+}
+
+.data-edit-button button{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 10px;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    width: 250%;
+}

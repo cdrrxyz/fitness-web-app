@@ -1,0 +1,240 @@
+.page {
+    background-color: #ffffff;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+.section {
+    padding: 2.56rem 1rem;
+    background-color: #824b4c;
+}
+.text-wrapper {
+    margin-right: 0.5rem;
+}
+.font_1 {
+    font-size: 0.94rem;
+    font-family: 'Heiti SC';
+    line-height: 0.94rem;
+    font-weight: 700;
+    color: #000000;
+}
+.text {
+    margin: 0 0.25rem;
+}
+.text-wrapper_2 {
+    margin-right: 0.88rem;
+}
+.font_2 {
+    font-size: 0.94rem;
+    font-family: 'Heiti SC';
+    line-height: 0.94rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.text_2 {
+    margin: 0 0.25rem;
+}
+.section_2 {
+    padding: 1.5rem 0 34.88rem;
+    background-color: #dbd1d1;
+    width: 7.44rem;
+    height: 100%;
+}
+.space-y-34 > *:not(:first-child) {
+    margin-top: 2.13rem;
+}
+.section_3 {
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    width: 4.19rem;
+    height: 4.19rem;
+    border: solid 0.063rem #979797;
+}
+.group {
+    margin: 1.5rem 1rem 0 1.25rem;
+}
+.space-y-16 > *:not(:first-child) {
+    margin-top: 1rem;
+}
+.section_4 {
+    padding: 1rem 0.63rem 1rem 0.88rem;
+    background-color: #e5e5e5;
+    border-radius: 0.5rem;
+}
+.font_3 {
+    font-size: 1.13rem;
+    font-family: 'Heiti SC';
+    line-height: 1.13rem;
+    font-weight: 700;
+    color: #000000;
+}
+.text_3 {
+    margin-right: 0.56rem;
+}
+.group_2 {
+    margin-top: 1rem;
+}
+.space-y-11 > *:not(:first-child) {
+    margin-top: 0.69rem;
+}
+.font_4 {
+    font-size: 0.75rem;
+    font-family: 'Heiti SC';
+    line-height: 0.75rem;
+    font-weight: 700;
+    color: #000000;
+}
+.text_4 {
+    color: #5a5757;
+    font-size: 0.63rem;
+    font-family: 'Heiti SC';
+    font-weight: 700;
+    line-height: 0.63rem;
+}
+.divider {
+    margin-top: 0.5rem;
+    background-color: #868686;
+    height: 0.063rem;
+}
+.section_5 {
+    padding: 0 0.75rem 0.81rem;
+    background-color: #e5e5e5;
+    border-radius: 0.5rem;
+}
+.group_3 {
+    padding: 1.13rem 0 0.56rem 0.25rem;
+    border-bottom: solid 0.063rem #8b8b8b;
+}
+.group_4 {
+    margin-top: 1.19rem;
+    padding-left: 0.19rem;
+}
+.section_6 {
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    width: 2.06rem;
+    height: 2.06rem;
+    border: solid 0.063rem #979797;
+}
+.input {
+    flex: 1 1 auto;
+    margin-left: 0.5rem;
+}
+.text-wrapper_3 {
+    padding: 0.63rem 0;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    height: 2.06rem;
+}
+.text_5 {
+    margin-left: 0.5rem;
+}
+.group_5 {
+    margin-top: 1.81rem;
+}
+.group_6 {
+    padding-left: 0.19rem;
+    padding-bottom: 1.13rem;
+}
+.text-wrapper_4 {
+    flex: 1 1 auto;
+}
+.button {
+    padding: 0.63rem 0;
+    background-color: #864a48;
+    border-radius: 0.5rem;
+    height: 2.06rem;
+}
+.text_6 {
+    margin-right: 0.5rem;
+}
+.view {
+    margin-left: 0.44rem;
+}
+.group_7 {
+    padding-top: 0.63rem;
+}
+.section_7 {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    width: 10.5rem;
+    height: 2.06rem;
+}
+.view_2 {
+    margin-left: 0.56rem;
+}
+.font_5 {
+    font-size: 0.75rem;
+    font-family: 'Heiti SC';
+    line-height: 0.75rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.text_7 {
+    margin-left: 0.19rem;
+}
+.section_8 {
+    padding: 0 0.5rem;
+    background-color: #dadada;
+    border-radius: 0.5rem;
+}
+.group_8 {
+    padding: 0.75rem 0 0.5rem;
+}
+.text_8 {
+    margin-right: 0.38rem;
+}
+.section_9 {
+    margin-right: 0.38rem;
+}
+.section_10 {
+    margin-right: 0.38rem;
+    margin-top: 0.5rem;
+}
+.input_2 {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    height: 1.69rem;
+}
+.group_9 {
+    padding: 0.5rem 0 0.69rem;
+}
+.button_2 {
+    align-self: flex-end;
+    margin-right: 0.38rem;
+    margin-top: 0.31rem;
+}
+.text-wrapper_5 {
+    padding: 0.5rem 0;
+    background-color: #a06f71;
+    border-radius: 0.5rem;
+    width: 4.19rem;
+}
+#group_list {
+    display: flex;
+    flex-direction: column;
+}
+#user_list {
+    display: none;
+}
+#dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #fff;
+    width: 30rem;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}

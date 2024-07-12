@@ -1,0 +1,24 @@
+.guide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.guide-container img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.guide-container a {
+    text-decoration: none;
+    color: black;
+}
+.guide-container p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+}
+.training, .equipment {
+    text-align: center;
+    margin: 0 80px;
+}

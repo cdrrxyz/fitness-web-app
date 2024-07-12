@@ -1,0 +1,12 @@
+.back-btn {
+    margin-left: 20px;
+    font-size: 50px;
+    color: #814C4C;
+}
+.details_container {
+    margin: 10px 80px;
+}
+.details_container .title {
+    font-size: 24px;
+    font-weight: bold;
+}

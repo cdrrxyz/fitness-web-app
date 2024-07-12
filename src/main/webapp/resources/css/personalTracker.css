@@ -1,0 +1,380 @@
+.personalTracker-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.personalTracker-page .personalTracker-options{
+    display: flex;
+    flex-direction: column;
+    background: rgba(134, 99, 99, 0.3);
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.personalTracker-options .options{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.personalTracker-options .options button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.personalTracker-options .options:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.personalTracker-options .options-clicked{
+    position: relative;
+    background: rgba(157, 113, 113, 0.6);
+    top: 10%;
+    border-radius: 20px;
+}
+
+.personalTracker-options .options-clicked button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.personalTracker-options .options-clicked:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.personalTracker-page .personalTracker-data{
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+
+.personalTracker-data .tracker-options {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    gap: 5%;
+    height: 15%;
+    justify-content: center;
+}
+
+.tracker-options button{
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 10%;
+}
+
+.personalTracker-data .tracker-options-content {
+    position: relative;
+}
+.button-container .save-btn{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.button-container .cancel-btn{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #a4a0a0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.tracker-options-content .data-calories-today{
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.data-calories-today p.text-calories-today-1{
+    position: relative;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-calories-today p.text-calories-today-4{
+    position: relative;
+    margin-top: -70px;
+    margin-right: -800px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-calories-today p.text-calories-today-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background: gainsboro;
+}
+
+.data-calories-today .text-calories-container p {
+    content: " ";
+    position: relative;
+    font-size: 30px;
+    font-family: Arial;
+    left: 205px;
+    width: 50%;
+    background: gainsboro;
+    display: inline-block;
+}
+
+#data-edit-button2 button{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: -55px;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+#calories-input .data-save-button input,
+#calories-input #cancel-button-2 button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tracker-options-content .data-steps-today{
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.data-steps-today p.text-steps-today-1{
+    position: relative;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: Arial;
+    margin-right: -805px;
+}
+
+.data-steps-today p.text-steps-today-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background: gainsboro;
+    margin-right: -215px;
+}
+
+.stepDaySelect {
+    margin-right: -810px;
+    margin-top: 30px;
+}
+
+.data-steps-today input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+    margin-right: 10px;
+}
+
+.data-steps-today #stepDateDec{
+    position: relative;
+    right: 135px;
+    bottom: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.data-steps-today #stepDateInc{
+    position: relative;
+    left: 125px;
+    bottom: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+#data-edit-button button{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: -55px;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+#steps-input .data-save-button input,
+#steps-input #cancel-button button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#steps-input input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+    margin-right: 10px;
+}
+
+#calories-input input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+    margin-right: 10px;
+}
+
+#calories-input label{
+    position: relative;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+#calories-input option{
+    position: relative;
+    margin-top: -100px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#calories-input select{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.tracker-options-content .data-weight-current{
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+}
+
+#data-edit-weight-button button{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-left: -400px;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.data-weight-current p.text-weight-current-1{
+    position: relative;
+    margin-top: -100px;
+    margin-left: -900px;
+    font-size: 30px;
+    font-family: Arial;
+    margin-right: -805px;
+}
+
+#weight-input .data-save-weight-button input,
+#weight-input #cancel-button-weight button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#weight-input input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+}

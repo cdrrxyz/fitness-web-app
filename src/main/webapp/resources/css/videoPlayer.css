@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.back-btn {
+    margin-left: 20px;
+    font-size: 50px;
+    color: #814C4C;
+}

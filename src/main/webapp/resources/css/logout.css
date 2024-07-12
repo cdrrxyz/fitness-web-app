@@ -1,0 +1,47 @@
+.logout-form{
+    text-align: left;
+    margin: 100px auto;
+    width: 40%;
+    padding: 60px 30px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 20px;
+    opacity: 0.95;
+}
+.logout-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.logout-form form {
+    margin: 10px 40px;
+}
+.logout-form p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+.logout-form .buttons{
+    margin-top: 40px;
+    text-align: center;
+}
+.ok-btn{
+    width: 90px;
+    height: 40px;
+    background: #814C4C;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.cancel-btn{
+    width: 90px;
+    height: 40px;
+    background: gray;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+}

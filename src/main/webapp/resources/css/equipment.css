@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.equipment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.equipment-card {
+    flex-basis: calc(33% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+.equipment-card {
+    width: 200px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.equipment-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(172, 52, 52, 0.5);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #AC3434;
+}

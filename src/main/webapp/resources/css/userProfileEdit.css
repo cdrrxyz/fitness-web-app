@@ -1,0 +1,210 @@
+.profile-edit-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-edit-page .profile-edit-options{
+    display: flex;
+    flex-direction: column;
+    background: rgba(134, 99, 99, 0.3);
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.profile-edit-options .options-one{
+    position: relative;
+    background: rgba(157, 113, 113, 0.6);
+    top: 10%;
+    border-radius: 20px;
+}
+
+.profile-edit-options .options-one button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-edit-options .options-one:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.profile-edit-options .options-two{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.profile-edit-options .options-two button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-edit-options .options-two:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.profile-edit-options .options-three{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.profile-edit-options .options-three button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-edit-options .options-three:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.profile-edit-page .profile-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    background: white;
+    gap: 5%;
+}
+
+.profile-data .data-first-name {
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.data-first-name p.text-first-name {
+    position: relative;
+    right: 105px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-first-name input{
+    font-family: Arial;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+}
+
+.profile-data .data-last-name {
+    position: relative;
+    padding-top: 5%;
+    width: 45%;
+}
+.data-last-name p.text-last-name {
+    position: relative;
+    right: 85px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-last-name input{
+    font-family: Arial;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+}
+
+.profile-data .data-email {
+    position: relative;
+    width: 50%;
+}
+
+.data-email p.text-email-1 {
+    position: relative;
+    right: 80px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-email p.text-email-2{
+    font-size: 30px;
+    font-family: Arial;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background: gainsboro;
+}
+
+.profile-data .data-dob {
+    position: relative;
+    width: 45%;
+}
+
+.data-dob p.text-dob {
+    position: relative;
+    right: 75px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.data-dob input{
+    font-family: Arial;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 60%;
+}
+.button-container .save-btn{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.button-container .cancel-btn{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #a4a0a0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}

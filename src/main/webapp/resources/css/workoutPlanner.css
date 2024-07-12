@@ -1,0 +1,207 @@
+.workoutPlanner-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.workoutPlanner-page .workoutPlanner-options{
+    display: flex;
+    flex-direction: column;
+    background: rgba(134, 99, 99, 0.3);
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.workoutPlanner-options .options{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.workoutPlanner-options .options button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.workoutPlanner-options .options:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.workoutPlanner-options .options-clicked{
+    position: relative;
+    top: 10%;
+    border-radius: 20px;
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.workoutPlanner-options .options-clicked button {
+    font-size: 20px;
+    width: 100%;
+    padding: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.workoutPlanner-options .options-clicked:hover{
+    background: rgba(157, 113, 113, 0.6);
+}
+
+.workoutPlanner-page .workoutPlanner-data{
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+
+#workout-input input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+    margin-right: 10px;
+}
+
+#workout-input label{
+    position: relative;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+#workout-input option{
+    position: relative;
+    margin-top: -100px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#workout-input select{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#workout-input .data-save-button input,
+#workout-input #cancel-button button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.workoutPlanner-data p.text-plans-0{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.workoutPlanner-data p.text-plans-1{
+    position: relative;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.workoutPlanner-data p.text-plans-2{
+    position: relative;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.workoutPlanner-data .text-plans-container p {
+    content: " ";
+    position: relative;
+    font-size: 30px;
+    font-family: Arial;
+    right: 275px;
+    width: 35%;
+    background: gainsboro;
+    display: inline-block;
+}
+
+.workoutPlanner-data input{
+    font-family: Arial;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: inherit;
+    margin-right: 10px;
+}
+
+.workoutPlanner-data p.text-plans-3{
+    position: relative;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+#data-edit-button button{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#workout-input {
+    margin-top: 50px;
+}
+
+.workoutPlanner-data #planDateDec{
+    position: relative;
+    right: 135px;
+    bottom: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.workoutPlanner-data #planDateInc{
+    position: relative;
+    left: 125px;
+    bottom: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #814C4C;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}

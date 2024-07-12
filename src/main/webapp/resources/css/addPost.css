@@ -1,0 +1,65 @@
+.add-post-form{
+    text-align: center;
+    margin: 100px auto;
+    width: 40%;
+    padding: 60px 30px;
+    background: rgba(204, 204, 204, 0.9);
+    border-radius: 20px;
+    opacity: 0.95;
+}
+.add-post-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.add-post-form form {
+    margin: 10px 40px;
+}
+.add-post-form label {
+    display: block;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.add-post-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial;
+}
+.add-post-form textarea {
+    font-family: Arial;
+    width: 100%;
+    padding: 10px;
+}
+.add-post-form .drop-down-list {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.drop-down-list .options {
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: white;
+}
+.add-post-form button {
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+    background: #814C4C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px auto;
+}
+.add-post-form .cancel-btn {
+    margin-left: 100px;
+}
