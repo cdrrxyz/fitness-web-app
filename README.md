@@ -33,9 +33,3 @@ password: 'password'
 ## Run Unit Tests
 
 Run `gradle test`
-
-
-## List of all Libraries and versions
-
-
-## List of all working functionalities
