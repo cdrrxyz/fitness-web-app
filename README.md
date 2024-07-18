@@ -1,4 +1,4 @@
-# elec5619-fitness-web-app
+# fitness-web-app
 
 ## How to Set up and Run
 
